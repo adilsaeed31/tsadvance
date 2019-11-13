@@ -1,8 +1,8 @@
 export class CustomMap {
-  private gogoleMaps: google.maps.Map
+  private googleMaps: google.maps.Map
 
   constructor() {
-    this.gogoleMaps = new google.maps.Map(document.getElementById('map'), {
+    this.googleMaps = new google.maps.Map(document.getElementById('map'), {
       zoom: 1,
       center: {
         lat: 0,
